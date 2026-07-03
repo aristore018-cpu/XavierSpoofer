@@ -8,7 +8,6 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-// Root endpoint - TEST
 app.get('/', (req, res) => {
     res.json({
         status: 'online',
